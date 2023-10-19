@@ -15,12 +15,22 @@ class People:
         self.connection = connection
 
 
-my_group = [{'name': 'Jill', 'age': 8, 'job': 'biologist',
+my_group0 = [{'name': 'Jill', 'age': 8, 'job': 'biologist',
              'relationship': {'partner':['John']}},
             {'name': 'Zalika', 'age':28, 'job': 'artist',
-             'relationship': {}},
+             'relationship': {'friends':['Jill']}},
             {'name': 'John', 'age': 27, 'job': 'writer',
-             'relationship': {}},
+             'relationship': {'partner': ['Jill']}},
             {'name': 'Nash', 'age': 34, 'job': 'chef',
-             'relationship': {}}
+             'relationship': {'cousin':['John'], 'landlord':['Zalika']}}
             ]
+
+my_grouop1 ={'Jill':{'age': 8, 'job': 'biologist',
+                    'relationships': {'partner': ['John']}},
+            'Zalika': {'age': 28, 'job': 'artist',
+                     'relationships': {'friends': ['Jill']}},
+            'John': {'age': 27, 'job': 'writer',
+                    'relationships': {'partner': ['Jill']}},
+            'Nash': {'age': 34, 'job': 'chef',
+                    'relationships': {'cousin':['John'], 'landlord':['Zalika']}}
+            }
