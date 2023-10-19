@@ -25,6 +25,9 @@ my_group0 = [{'name': 'Jill', 'age': 8, 'job': 'biologist',
              'relationship': {'cousin':['John'], 'landlord':['Zalika']}}
             ]
 
+
+
+
 my_grouop1 ={'Jill':{'age': 8, 'job': 'biologist',
                     'relationships': {'partner': ['John']}},
             'Zalika': {'age': 28, 'job': 'artist',
