@@ -3,16 +3,40 @@
 # Your code to go here...
 
 
-def print_connection():
-    print()
+group = {
+    "Jill": {
+        "age": 26,
+        "job": "biologist",
+        "relations": {
+            "Zalika": "friend",
+            "John": "partner"
+        }
+    },
+    "Zalika": {
+        "age": 28,
+        "job": "artist",
+        "relations": {
+            "Jill": "friend"
+        }
+    },
+    "John": {
+        "age": 27,
+        "job": "writer",
+        "relations": {
+            "Jill": "partner"
+        }
+    },
+    "Nash": {
+        "age": 34,
+        "job": "chef",
+        "relations": {
+            "John": "cousin",
+            "Zalika": "landlord"
+        }
+    }
+}
 
 
-class People:
-    def __int__(self, name, age, job, connection):
-        self.name = name
-        self.age = age
-        self.job = job
-        self.connection = connection
 
 
 my_group0 = [{'name': 'Jill', 'age': 8, 'job': 'biologist',
